@@ -1,7 +1,7 @@
 version: "3.0"
 
 services:
-  gateway-service-app:
+  service-configuration-app:
     image: service-configuration-app
     build:
       context: .
