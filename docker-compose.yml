@@ -1,0 +1,11 @@
+version: "3.0"
+
+services:
+  gateway-service-app:
+    image: service-configuration-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: service-configuration-microservices_course
+    ports:
+      - "8888:8888"
